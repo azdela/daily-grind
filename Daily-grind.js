@@ -1,11 +1,14 @@
 /*
+
 Here is the info we'll need to change for each coffee
+
 pic - image src
 alt - alt tag
 day - Day of the week
 name - Name of coffee
 color - Color
 desc = Description
+
 */
 
 let myDate = new Date();
@@ -56,7 +59,7 @@ switch(myDay){
     case 1:
         today = "Monday";
         coffee = {
-            color:"red",
+            color:"pink",
             name:"bubble Tea",
             pic:"images/bubble-tea.jpg",
             alt:"A picture of a Bubble Tea",
@@ -68,12 +71,12 @@ switch(myDay){
     case 2:
         today = "Tuesday";
         coffee = {
-            color:"brown",
+            color:"black",
             name:"cold brew",
             pic:"images/cold-brew.jpg",
-            alt:"A picture of a cold brew, very dark",
+            alt:"A picture of a cold brew...very dark",
             day:"Tuesday",
-            desc:`It doesnt get much colder than this`
+            desc:`It doesnt get much colder than this!`
         };
     break;
 
@@ -85,7 +88,7 @@ switch(myDay){
             pic:"images/drip.jpg",
             alt:"A picture of a drip coffee",
             day:"Wednesday",
-            desc:`Sometimes you just need the drip!`
+            desc:`Sometimes you just need the drip`
         };
     break;
 
@@ -97,18 +100,18 @@ switch(myDay){
             pic:"images/frappaccino.jpg",
             alt:"A cold blended drink",
             day:"Thursday",
-            desc:`Something for those hot summer days`
+            desc:`Something for those hot summer days!`
         };
 
         case 5:
             today = "Friday";
             coffee = {
-                color:"yellow",
+                color:"gold",
                 name:"Mocha",
                 pic:"images/mocha.jpg",
                 alt:"A chocolate espresso coffee",
                 day:"Friday",
-                desc:`Goes great with a chocolate crossiant`
+                desc:`Goes great with a chocolate crossiant!`
             };
 
             case 6:
@@ -119,7 +122,7 @@ switch(myDay){
                     pic:"images/pumpkin-spice-latte.jpg",
                     alt:"A pumpkin espresso blended hot drink",
                     day:"Saturday",
-                    desc:`Its okay to be basic. Have your first Pumpkin Spice latte on us.`
+                    desc:`Its okay to be basic. Have your first Pumpkin Spice latte on us!`
                 };
             break;
         break;
